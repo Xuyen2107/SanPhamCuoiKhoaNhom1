@@ -162,9 +162,29 @@ ul.content-info {
    color: orange;
 }
 
+.fb-comments {
+   background-color: white;
+}
+
 @media screen and (max-width: 1023px) {
    #movie-intro {
-      width: 90%;
+      width: 80%;
+   }
+
+   .intro-title {
+      font-size: 1rem;
+   }
+
+   .intro-title i {
+      font-size: 0.7rem;
+   }
+
+   .place-name {
+      font-size: 1.6rem;
+   }
+
+   .place-e-name {
+      font-size: 1.2rem;
    }
 
    .info-img-2 {
@@ -177,5 +197,49 @@ ul.content-info {
 
    ul.content-info {
       grid-template-columns: repeat(1, 1fr);
+      font-size: 1rem;
+   }
+
+   .content-review {
+      font-size: 1rem;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   #movie-intro {
+      width: 90%;
+   }
+
+   .intro-title {
+      font-size: 0.5rem;
+   }
+
+   .intro-title i {
+      font-size: 0.4rem;
+   }
+
+   .place-name {
+      font-size: 1rem;
+   }
+
+   .place-e-name {
+      font-size: 0.6rem;
+   }
+
+   .info-img-2 {
+      display: none;
+   }
+
+   .info-place {
+      left: 10px;
+   }
+
+   ul.content-info {
+      grid-template-columns: repeat(1, 1fr);
+      font-size: 0.8rem;
+   }
+
+   .content-review {
+      font-size: 0.8rem;
    }
 }

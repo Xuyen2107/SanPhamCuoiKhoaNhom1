@@ -59,7 +59,7 @@ export function movieIntroHTML(allMovies, nameCondition) {
                      <ul class="content-info">
                         <li>
                            <label>Đang Phát: </label>
-                           <span>${Item.nowPlaying}</span>
+                           <span style="color: red;">${Item.nowPlaying}</span>
                         </li>
                         <li>
                            <label>Năm Phát Hành: </label>
@@ -107,6 +107,7 @@ export function movieIntroHTML(allMovies, nameCondition) {
                      </div>
                   </div>
                </div>
+               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1}" data-width="100%" data-numposts="10"></div>
             </div>
         `;
    }
