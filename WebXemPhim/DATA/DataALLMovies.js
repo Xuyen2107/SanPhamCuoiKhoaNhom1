@@ -14,6 +14,8 @@ const allMovies = [
       director: "Kenji Kodama",
       actor: ["Akira Kamiya", "Chika Sakamoto", "Kazue Ikura", "Mami Koyama", "Marie Iitoyo", "Tesshō Genda", "Yôko Asagami"],
       time: " 114 Phút",
+      rate: 7,
+      like:12,
       review:
          "Thợ Săn Thành Phố: Căn Cứ Bí Mật Shinjuku City Hunter: Shinjuku Private Eyes 2019 Full HD Vietsub Thuyết Minh Thám tử tư Ryo Saeba được thuê để bảo vệ con gái của một nhà khoa học vừa qua đời trong một vụ tai nạn giao thông đáng ngờ.",
       link1: "./GioiThieuPhim.html?Phim=tho-san-thanh-pho-can-cu-bi-mat-shinjuku",
