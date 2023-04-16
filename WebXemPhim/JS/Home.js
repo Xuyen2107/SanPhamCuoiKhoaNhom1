@@ -10,7 +10,6 @@ document.querySelectorAll(".card-1")[1].innerHTML = phimBoHTML;
 const phimRapHTML = homeGenerateHTML(allMovies, (Item) => Item.category.includes("Phim Chiếu Rạp"), 0, 1);
 document.querySelectorAll(".card-1")[2].innerHTML = phimRapHTML;
 
-
 document.querySelectorAll(".home-row-2");
 const phimLe1HTML = generateHTML(allMovies, (Item) => Item.category.includes("Phim Lẻ"), 1, 7);
 document.querySelectorAll(".home-row-2")[0].innerHTML = phimLe1HTML;
@@ -18,7 +17,6 @@ const phimBo1HTML = generateHTML(allMovies, (Item) => Item.category.includes("Ph
 document.querySelectorAll(".home-row-2")[1].innerHTML = phimBo1HTML;
 const phimRap1HTML = generateHTML(allMovies, (Item) => Item.category.includes("Phim Chiếu Rạp"), 1, 7);
 document.querySelectorAll(".home-row-2")[2].innerHTML = phimRap1HTML;
-
 
 document.querySelectorAll(".home-row-3");
 const phimLe2HTML = generateHTML(allMovies, (Item) => Item.category.includes("Phim Lẻ"), 7, 12);

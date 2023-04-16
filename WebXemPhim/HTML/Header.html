@@ -79,8 +79,8 @@
                </li>
             </ul>
 
-            <form action="" id="search-box">
-               <input id="search-text" type="search" placeholder=" Nhập tìm kiếm" required />
+            <form action="./TimKiem.html" id="search-box" method="GET">
+               <input id="search-text" type="search" placeholder="Nhập tìm kiếm" name="search" required />
                <button type="submit" id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
 
@@ -89,5 +89,7 @@
             </div>
          </nav>
       </header>
+      <div id="search-result" style="color: white"></div>
+      <script type="module" src="../JS/Header.js"></script>
    </body>
 </html>
