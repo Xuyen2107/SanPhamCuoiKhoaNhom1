@@ -29,7 +29,7 @@ main {
 #header {
    position: sticky;
    width: 100%;
-   z-index: 999;
+   z-index: 10;
    top: 0;
 }
 
@@ -125,6 +125,10 @@ main {
    display: grid;
 }
 
+#return {
+   position: relative;
+}
+
 #search-box {
    background-color: white;
    border-radius: 30px;
@@ -162,6 +166,49 @@ main {
    width: 40px;
    border-radius: 50%;
    font-size: 18px;
+}
+
+#return-search {
+   display: none;
+   position: absolute;
+   background-color: white;
+   padding: 10px;
+   top: 3.1rem;
+   right: -30%;
+   left: -30%;
+   max-height: 500px;
+   overflow-y: auto;
+   z-index: 20; /* đặt giá trị z-index để cho nó hiển thị trên các phần tử khác */
+}
+
+#return-search ul {
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+}
+
+#return-search ul li {
+   border: 1px solid black;
+}
+
+#return-search ul li a {
+   display: flex;
+   gap: 5px;
+   color: black;
+}
+
+#return-search ul li a:hover {
+   color: orange;
+}
+
+#return-search ul li a div p:hover {
+   color: orange;
+   border-bottom: 1px solid orange;
+}
+
+#return-search ul li a img {
+   width: 30px;
+   height: 30px;
 }
 
 .avata a {

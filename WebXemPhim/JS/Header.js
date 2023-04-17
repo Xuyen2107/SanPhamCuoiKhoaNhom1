@@ -1,17 +1,42 @@
-// lấy đối tượng biểu mẫu tìm kiếm
-var searchForm = document.getElementById("search-form");
+import { allMovies } from "../DATA/DataALLMovies.js";
 
-// thêm sự kiện "submit" vào biểu mẫu tìm kiếm
-searchForm.addEventListener("submit", function (event) {
-   // ngăn chặn hành động mặc định của biểu mẫu tìm kiếm
-   event.preventDefault();
+const searchBox = document.querySelector("#search-box");
+const searchInput = document.querySelector("#search-text");
+const returnSearch = document.querySelector("#return-search");
 
-   // lấy giá trị từ ô input
-   var searchText = document.getElementById("search-text").value;
+searchBox.addEventListener("input", () => {
+   const searchTerm = searchInput.value.toLowerCase();
+   const searchResults = allMovies.filter((movie) => {
+      for (let prop in movie) {
+         if (movie[prop].toString().toLowerCase().includes(searchTerm)) {
+            return true;
+         }
+      }
+      return false;
+   });
 
-   // lưu giá trị từ khóa tìm kiếm vào bộ nhớ trình duyệt
-   localStorage.setItem("searchText", searchText);
-
-   // chuyển hướng đến trang TimKiem.html
-   window.location.href = "./TimKiem.html";
+   if (searchTerm === "") {
+      returnSearch.innerHTML = "";
+      returnSearch.style.display = "none";
+   } else if (searchResults.length > 0) {
+      const searchItems = searchResults
+         .map((result) => {
+            return `
+        <li class="menu-item">
+          <a href="${result.link1}">
+            <img src="${result.image}" alt="${result.name}" />
+            <div>
+              <p>${result.name}</p>
+            </div>
+          </a>
+        </li>
+      `;
+         })
+         .join("");
+      returnSearch.innerHTML = `<ul id="return-card">${searchItems}</ul>`;
+      returnSearch.style.display = "block";
+   } else {
+      returnSearch.innerHTML = `<p>No results found.</p>`;
+      returnSearch.style.display = "block";
+   }
 });
