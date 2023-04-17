@@ -4,7 +4,8 @@ export function movieIntroHTML(allMovies, nameCondition) {
    for (let i = 0; i < arr.length; i++) {
       const Item = arr[i];
 
-      result += `
+      result +=
+         `
         <div>
                <div class="intro-title">
                   <a href="./Home.html" title="Xem Phim">
@@ -47,6 +48,9 @@ export function movieIntroHTML(allMovies, nameCondition) {
                         <span>Chia se</span>
                      </div>
                      <div class="rate-star" style="color: white">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
                         <i class="fa-solid fa-star"></i>
@@ -107,8 +111,9 @@ export function movieIntroHTML(allMovies, nameCondition) {
                      </div>
                   </div>
                </div>
-               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1}" data-width="100%" data-numposts="10"></div>
+               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1.split("/").pop()}" data-width="100%" data-numposts="10"></div>
             </div>
+            
         `;
    }
    return result;

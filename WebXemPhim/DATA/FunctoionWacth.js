@@ -48,6 +48,9 @@ export function watchMovieHTML(allMovies, nameCondition) {
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
                      <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
+                     <i class="fa-solid fa-star"></i>
                   </div>
                   <div class="like-share">
                      <span>Thích</span>
@@ -59,8 +62,7 @@ export function watchMovieHTML(allMovies, nameCondition) {
                   <p>${Item.name}</p>
                   <span>Xem nội dung chi tiết <a href="${Item.link1}">[Tại Đây]</a></span>
                </div>
-               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1}" data-width="100%" data-numposts="10"></div>
-
+               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1.split("/").pop()}" data-width="100%" data-numposts="10"></div>
             </div>
       `;
    }

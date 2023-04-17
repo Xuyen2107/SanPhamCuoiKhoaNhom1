@@ -10,10 +10,10 @@ $(document).ready(function () {
    document.getElementById("movie-intro").innerHTML = phim;
 });
 
-// document.addEventListener("DOMContentLoaded", function () {
-document.getElementById("watch-trailer").addEventListener("click", function () {
-   const $trailer = document.getElementById("trailer");
-   $trailer.style.display = "block";
-   $trailer.scrollIntoView({ behavior: "smooth" });
+document.addEventListener("DOMContentLoaded", function () {
+   document.getElementById("watch-trailer").addEventListener("click", function () {
+      const $trailer = document.getElementById("trailer");
+      $trailer.style.display = "block";
+      $trailer.scrollIntoView({ behavior: "smooth" });
+   });
 });
-// });
