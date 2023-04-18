@@ -1,260 +1,262 @@
 #star-container {
-   vertical-align: middle;
-   cursor: pointer;
-   width: 250px;
-   display: flex;
-   margin-bottom: 14px;
+  vertical-align: middle;
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  margin-bottom: 14px;
 }
 
 .star-widget i {
-   color: #ccc;
-   transition: color 1s ease;
+  color: #ccc;
+  transition: color 1s ease;
 }
 .star-widget i.active {
-   color: #ff9601;
+  color: #ff9601;
 }
 #movie-intro {
-   width: 70%;
+  width: 70%;
 }
 .intro-title {
-   display: flex;
-   align-items: center;
-   padding: 0.8vw 0.8vw;
-   background-color: black;
-   gap: 0.5vw;
-   color: white;
-   font-size: 1.5vw;
+  display: flex;
+  align-items: center;
+  padding: 0.8vw 0.8vw;
+  background-color: black;
+  gap: 0.5vw;
+  color: white;
+  font-size: 1.5vw;
 }
 
 .intro-title i {
-   font-size: 1vw;
+  font-size: 1vw;
 }
 
 .intro-title a {
-   display: flex;
-   align-items: center;
-   gap: 0.5vw;
-   color: orange;
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  color: orange;
 }
 
 .intro-info {
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;
-   position: relative;
-   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 .icon-play {
-   position: absolute;
-   color: orange;
-   font-size: 5vw;
-   z-index: 1;
-   transition: all 0.5s ease-in-out;
+  position: absolute;
+  color: orange;
+  font-size: 5vw;
+  z-index: 1;
+  transition: all 0.5s ease-in-out;
 }
 
 .icon-play:hover {
-   transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .info-img-1 {
-   width: 100%;
-   aspect-ratio: 16/8;
-   opacity: 0.6;
+  width: 100%;
+  aspect-ratio: 16/8;
+  opacity: 0.6;
 }
 
 .info-img-2 {
-   position: absolute;
-   z-index: 1;
-   width: 16vw;
-   height: 10vw;
-   left: 10px;
-   bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  width: 16vw;
+  height: 10vw;
+  left: 10px;
+  bottom: 10px;
 }
 
 .info-place {
-   position: absolute;
-   z-index: 1;
-   left: 18vw;
-   bottom: 10px;
+  position: absolute;
+  z-index: 1;
+  left: 18vw;
+  bottom: 10px;
 }
 
 .info-place p {
-   margin-bottom: 1vw;
-   color: white;
+  margin-bottom: 1vw;
+  color: white;
 }
 
 .place-name {
-   font-size: 3vw;
+  font-size: 3vw;
 }
 
 .place-e-name {
-   font-size: 1.5vw;
+  font-size: 1.5vw;
 }
 
 .place-watch {
-   display: flex;
-   gap: 1vw;
-   align-items: center;
+  display: flex;
+  gap: 1vw;
+  align-items: center;
 }
 
 .place-watch a {
-   color: white;
-   padding: 0.6vw;
-   border-radius: 0.4vw;
-   opacity: 0.8;
-   font-size: 1.1vw;
+  color: white;
+  padding: 0.6vw;
+  border-radius: 0.4vw;
+  opacity: 0.8;
+  font-size: 1.1vw;
 }
 
 .place-watch > a:nth-child(1) {
-   background-color: blue;
+  background-color: blue;
 }
 
 .place-watch > a:nth-child(2) {
-   background-color: red;
+  background-color: red;
 }
 
 .place-watch a:hover {
-   opacity: 1;
+  opacity: 1;
 }
 
 .intro-content {
-   color: white;
-   padding: 10px;
-   background-color: black;
-   width: 100%;
+  color: white;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
 }
 
 .like-share {
-   margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .like-share > span {
-   padding: 5px;
-   background-color: blue;
+  background-color: blue;
+  padding: 5px;
+  color: #fff;
+  cursor: pointer;
 }
 
 ul.content-info {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   overflow: hidden;
-   gap: 5px 20px;
-   margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  gap: 5px 20px;
+  margin-top: 10px;
 }
 
 .content-info li {
-   display: flex;
-   gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 
 .content-info li label {
-   white-space: nowrap;
+  white-space: nowrap;
 }
 
 .content-info li span {
-   display: flex;
-   flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #trailer {
-   display: none;
+  display: none;
 }
 
 .trailer-video {
-   width: 100%;
-   aspect-ratio: 16/9;
+  width: 100%;
+  aspect-ratio: 16/9;
 }
 
 .content-hr {
-   width: 100%;
-   border: 1px solid rgb(229, 8, 8);
-   margin: 5px 0;
+  width: 100%;
+  border: 1px solid rgb(229, 8, 8);
+  margin: 5px 0;
 }
 
 .content-review p {
-   margin-bottom: 10px;
-   color: orange;
+  margin-bottom: 10px;
+  color: orange;
 }
 
 .fb-comments {
-   background-color: white;
+  background-color: white;
 }
 
 @media screen and (max-width: 1023px) {
-   #movie-intro {
-      width: 80%;
-   }
+  #movie-intro {
+    width: 80%;
+  }
 
-   .intro-title {
-      font-size: 1rem;
-   }
+  .intro-title {
+    font-size: 1rem;
+  }
 
-   .intro-title i {
-      font-size: 0.7rem;
-   }
+  .intro-title i {
+    font-size: 0.7rem;
+  }
 
-   .place-name {
-      font-size: 1.6rem;
-   }
+  .place-name {
+    font-size: 1.6rem;
+  }
 
-   .place-e-name {
-      font-size: 1.2rem;
-   }
+  .place-e-name {
+    font-size: 1.2rem;
+  }
 
-   .info-img-2 {
-      display: none;
-   }
+  .info-img-2 {
+    display: none;
+  }
 
-   .info-place {
-      left: 10px;
-   }
+  .info-place {
+    left: 10px;
+  }
 
-   ul.content-info {
-      grid-template-columns: repeat(1, 1fr);
-      font-size: 1rem;
-   }
+  ul.content-info {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 1rem;
+  }
 
-   .content-review {
-      font-size: 1rem;
-   }
+  .content-review {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
-   #movie-intro {
-      width: 90%;
-   }
+  #movie-intro {
+    width: 90%;
+  }
 
-   .intro-title {
-      font-size: 0.5rem;
-   }
+  .intro-title {
+    font-size: 0.5rem;
+  }
 
-   .intro-title i {
-      font-size: 0.4rem;
-   }
+  .intro-title i {
+    font-size: 0.4rem;
+  }
 
-   .place-name {
-      font-size: 1rem;
-   }
+  .place-name {
+    font-size: 1rem;
+  }
 
-   .place-e-name {
-      font-size: 0.6rem;
-   }
+  .place-e-name {
+    font-size: 0.6rem;
+  }
 
-   .info-img-2 {
-      display: none;
-   }
+  .info-img-2 {
+    display: none;
+  }
 
-   .info-place {
-      left: 10px;
-   }
+  .info-place {
+    left: 10px;
+  }
 
-   ul.content-info {
-      grid-template-columns: repeat(1, 1fr);
-      font-size: 0.8rem;
-   }
+  ul.content-info {
+    grid-template-columns: repeat(1, 1fr);
+    font-size: 0.8rem;
+  }
 
-   .content-review {
-      font-size: 0.8rem;
-   }
+  .content-review {
+    font-size: 0.8rem;
+  }
 }
