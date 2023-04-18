@@ -75,20 +75,3 @@ document.addEventListener("DOMContentLoaded", function () {
       });
    });
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-   const likeBtn = document.querySelector(".like-btn");
-
-   const rateCount = document.querySelector("#rate-like");
-
-   // thêm sự kiện "click" vào nút "like"
-   likeBtn.addEventListener("click", function () {
-      // lấy giá trị hiện tại của rate-like và rate-count
-
-      let currentCount = parseInt(rateCount.innerText);
-
-      // cập nhật lại giá trị của rate-count
-
-      rateCount.innerText = currentCount + 1;
-   });
-});

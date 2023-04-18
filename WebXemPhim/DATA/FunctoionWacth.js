@@ -39,11 +39,15 @@ export function watchMovieHTML(allMovies, nameCondition) {
 
                <div class="watch-rate">
                <div class="like-share">
-               <span class="like-btn">
-                  Thich 
-                  <span id="rate-count">${Item.like}</span>
-               </span>
-               <span>Chia sẻ</span>
+               <div
+                  class="fb-like"
+                  data-href="${Item.link2}"
+                  data-width=""
+                  data-layout="standard"
+                  data-action="like"
+                  data-size="large"
+                  data-share="true"
+               ></div>
             </div>
            <p class="mess">Đánh giá phim:</p>
            <div id="star-container">

@@ -4,16 +4,17 @@
 
 .intro-title {
    display: flex;
+   flex-wrap: wrap;
    align-items: center;
    padding: 0.8vw 0.8vw;
    background-color: black;
    gap: 0.5vw;
    color: white;
-   font-size: 1.5vw;
+   font-size: 2rem;
 }
 
 .intro-title i {
-   font-size: 1vw;
+   font-size: 1.4rem;
 }
 
 .intro-title a {
@@ -64,43 +65,45 @@
    z-index: 1;
    left: 18vw;
    bottom: 10px;
-}
-
-.info-place p {
-   margin-bottom: 1vw;
    color: white;
 }
 
 .place-name {
-   font-size: 3vw;
+   font-size: 2.5rem;
 }
 
 .place-e-name {
-   font-size: 1.5vw;
+   font-size: 1.4rem;
+   margin-bottom: 10px;
 }
 
 .place-watch {
    display: flex;
-   gap: 1vw;
+   gap: 5px;
    align-items: center;
+}
+
+.place-watch button {
+   color: white;
+   padding: 10px;
+   border-radius: 0.4vw;
+   opacity: 0.8;
+   font-size: 1.2rem;
+   background-color: blue;
+   border: none;
+   cursor: pointer;
 }
 
 .place-watch a {
    color: white;
-   padding: 0.6vw;
+   padding: 10px;
    border-radius: 0.4vw;
    opacity: 0.8;
-   font-size: 1.1vw;
-}
-
-.place-watch > a:nth-child(1) {
-   background-color: blue;
-}
-
-.place-watch > a:nth-child(2) {
+   font-size: 1.2rem;
    background-color: red;
 }
 
+.place-watch button:hover,
 .place-watch a:hover {
    opacity: 1;
 }
@@ -112,23 +115,19 @@
    width: 100%;
 }
 
+.like-share {
+   color: white;
+}
+
 .intro-rate {
    display: flex;
    flex-direction: column;
    gap: 5px;
 }
 
-.like-share {
-   display: flex;
-   gap: 5px;
-   margin: 10px 0px;
-}
-
-.like-share > span {
-   background-color: blue;
-   padding: 5px;
-   color: #fff;
-   cursor: pointer;
+.mess {
+   font-size: 1.3rem;
+   margin-top: 5px;
 }
 
 #star-container {
@@ -136,7 +135,15 @@
    cursor: pointer;
    width: 100%;
    display: flex;
+   flex-direction: column;
    gap: 5px;
+}
+
+.star-widget {
+   display: flex;
+   gap: 2px;
+   align-items: center;
+   font-size: 1.2rem;
 }
 
 .star-widget i {
@@ -152,8 +159,8 @@ ul.content-info {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    overflow: hidden;
-   gap: 5px 20px;
-   margin-top: 10px;
+   gap: 5px;
+   font-size: 1.2rem;
 }
 
 .content-info li {
@@ -186,8 +193,13 @@ ul.content-info {
 }
 
 .content-review p {
+   font-size: 1.4rem;
    margin-bottom: 10px;
    color: orange;
+}
+
+.content-review span {
+   font-size: 1.2rem;
 }
 
 .fb-comments {
@@ -196,23 +208,19 @@ ul.content-info {
 
 @media screen and (max-width: 1023px) {
    #movie-intro {
-      width: 80%;
+      width: 90%;
    }
 
    .intro-title {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
    }
 
    .intro-title i {
-      font-size: 1rem;
+      font-size: 0.8rem;
    }
 
-   .place-name {
-      font-size: 1.6rem;
-   }
-
-   .place-e-name {
-      font-size: 1.2rem;
+   .icon-play {
+      font-size: 2rem;
    }
 
    .info-img-2 {
@@ -221,15 +229,40 @@ ul.content-info {
 
    .info-place {
       left: 10px;
+      bottom: 10px;
+   }
+
+   .place-name {
+      font-size: 1.4rem;
+   }
+
+   .place-e-name {
+      font-size: 1.2rem;
+   }
+
+   .place-watch a {
+      font-size: 1.2rem;
+   }
+
+   .intro-rate p {
+      font-size: 1.2rem;
+   }
+
+   .star-widget {
+      font-size: 1.2rem;
    }
 
    ul.content-info {
       grid-template-columns: repeat(1, 1fr);
-      font-size: 1rem;
+      font-size: 1.2rem;
+   }
+
+   .content-review p {
+      font-size: 1.5rem;
    }
 
    .content-review {
-      font-size: 1rem;
+      font-size: 1.2rem;
    }
 }
 
@@ -239,19 +272,15 @@ ul.content-info {
    }
 
    .intro-title {
-      font-size: 0.8rem;
-   }
-
-   .intro-title i {
-      font-size: 0.6rem;
-   }
-
-   .place-name {
       font-size: 1rem;
    }
 
-   .place-e-name {
-      font-size: 0.6rem;
+   .intro-title i {
+      font-size: 0.7rem;
+   }
+
+   .icon-play {
+      font-size: 1.5rem;
    }
 
    .info-img-2 {
@@ -259,15 +288,40 @@ ul.content-info {
    }
 
    .info-place {
-      left: 10px;
+      left: 5px;
+      bottom: 5px;
+   }
+
+   .place-name {
+      font-size: 1.2rem;
+   }
+
+   .place-e-name {
+      font-size: 1rem;
+   }
+
+   .place-watch a {
+      font-size: 1rem;
+   }
+
+   .intro-rate p {
+      font-size: 1rem;
+   }
+
+   .star-widget {
+      font-size: 1rem;
    }
 
    ul.content-info {
       grid-template-columns: repeat(1, 1fr);
-      font-size: 0.8rem;
+      font-size: 1rem;
+   }
+
+   .content-review p {
+      font-size: 1.2rem;
    }
 
    .content-review {
-      font-size: 0.8rem;
+      font-size: 1rem;
    }
 }

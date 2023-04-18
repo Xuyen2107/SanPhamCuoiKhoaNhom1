@@ -28,7 +28,7 @@
 
    <body>
       <div id="fb-root"></div>
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0" X-Frame-Options="acept" nonce="kJGwHuB1"></script>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v16.0" nonce="1aAX4fFZ"></script>
 
       <div class="ld-container spinner-wrapper">
          <div class="ld-loader">
@@ -60,10 +60,10 @@
                      <p class="place-name">Thanh Gươm Diệt Quỷ</p>
                      <p class="place-e-name">Kimetsu no Yaiba</p>
                      <div class="place-watch">
-                        <a href="##" id="watch-trailer">
+                        <button type="button" id="watch-trailer">
                            <i class="fa-brands fa-youtube"></i>
                            Trailer
-                        </a>
+                        </button>
 
                         <a href="">
                            <i class="fa-regular fa-circle-play"></i>
@@ -76,11 +76,15 @@
                <div class="intro-content">
                   <div class="intro-rate">
                      <div class="like-share">
-                        <span class="like-btn">
-                           Thích
-                           <span id="rate-like">8</span>
-                        </span>
-                        <span>Chia sẻ</span>
+                        <div
+                           class="fb-like"
+                           data-href="http://127.0.0.1:5500/WebXemPhim/HTML/GioiThieuPhim.html"
+                           data-width=""
+                           data-layout="standard"
+                           data-action="like"
+                           data-size="large"
+                           data-share="true"
+                        ></div>
                      </div>
                      <p class="mess">Đánh giá phim:</p>
                      <div id="star-container">
@@ -95,13 +99,11 @@
                            <i class="fa-solid fa-star" title="Hay"></i>
                            <i class="fa-solid fa-star" title="Rất hay"></i>
                            <i class="fa-solid fa-star" title="Tuyệt phẩm"></i>
-                           <p id="ketQua"></p>
+                           <div id="like-rate" class="like-rate">(<span id="rate-count">0</span>/10)</div>
                         </div>
-                        <div id="like-rate" class="like-rate">
-                           (<span id="rate-count">0</span>/10)
-                        </div>
+                        <p id="ketQua"></p>
                      </div>
-
+                     <hr class="content-hr" />
                      <ul class="content-info">
                         <li>
                            <label>Đang Phát: </label>
