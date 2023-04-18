@@ -1,51 +1,45 @@
-// import { users } from "./Users.js";
+import { getAccounts, createNewAccount } from "./account.js";
 
-// console.log(12, users);
 const $email = document.getElementById("email");
 const $btnLogin = document.getElementById("btn-login");
 
-let email = $email.value;
 $btnLogin.onclick = () => {
-    if (!isEmailValid(email)) alert("Email không hợp lệ");
-    const checkEmail = users.find((x) => x.email != email);
-    if (checkEmail) {
+    const accounts = getAccounts()
+    let email = $email.value;
+    if (!isEmailValid(email)) return alert("Email không hợp lệ");
+    const existedUser = accounts.find((x) => x.email === email);
+    if (!existedUser) {
         alert("Email không tồn tại");
+        return
     }
-    // if (!isEmailExisted(email)) alert("Email không tồn tại");
+
+    window.location.href = "/WebXemPhim/HTML/DanhMuc.html"
 };
 
 function isEmailValid(email) {
-    return String(email)
-        .toLowerCase()
-        .match(/^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/);
+    const regex = new RegExp(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/)
+    return regex.test(email)
 }
 
 const $register = document.getElementById("register-text");
 const $btnRegister = document.getElementById("btn-register");
 const $password = document.getElementById("password");
 const $retypePassword = document.getElementById("retype-password");
-
+const $emailRegister = document.getElementById("email-register");
 $register.onclick = () => {
     document.getElementById("login-modal").style.display = "none";
     document.getElementById("register-modal").style.display = "block";
 };
 
 $btnRegister.onclick = () => {
-    if ($password.value != $retypePassword.value) alert("Password không hợp lệ");
-    if (!isEmailValid(email)) alert("Email không hợp lệ");
-    const checkEmail = users.find((x) => x.email == email);
-    if (checkEmail) {
-        alert("Email đã tồn tại");
-    }
-    // if (!isEmailExisted(email)) alert("Email không tồn tại");
+    let emailRegister = $emailRegister.value
+    if ($password.value != $retypePassword.value) return alert("Password không hợp lệ");
+    if (!isEmailValid(emailRegister)) return alert("Email không hợp lệ");
+
+    createNewAccount({
+        email: emailRegister,
+        password: $password.value
+    })
 };
 
-// export function handleDangNhap() {
-//   console.log($email);
-// }
 
-// window.onclick = function (event) {
-//   if (event.target == modal) {
-//     modal.style.display = "none";
-//   }
-// };
