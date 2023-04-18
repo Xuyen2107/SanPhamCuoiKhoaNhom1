@@ -39,7 +39,10 @@ export function watchMovieHTML(allMovies, nameCondition) {
 
                <div class="watch-rate">
                <div class="like-share">
-               <span class="like-btn">Thich</span>
+               <span class="like-btn">
+                  Thich 
+                  <span id="rate-count">${Item.like}</span>
+               </span>
                <span>Chia se</span>
             </div>
            <p class="mess">Đánh giá phim:</p>
@@ -59,10 +62,8 @@ export function watchMovieHTML(allMovies, nameCondition) {
            </div>
            <div id="like-rate" class="like-rate">
                (
-               <span id="rate-like">8</span>
-                   đ/
-               <span id="rate-count">58</span>
-                   lượt)
+               <span id="rate-like">${Item.rate}</span>
+                   /10)
            </div>
        </div>
                <hr class="hr1" />

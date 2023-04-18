@@ -4,6 +4,7 @@
   width: 100%;
   display: flex;
   margin-bottom: 14px;
+  margin-top: 5px;
 }
 
 .star-widget i {
@@ -127,6 +128,8 @@
 }
 
 .like-share {
+  display: flex;
+  gap: 5px;
   margin: 10px 0px;
 }
 

@@ -54,10 +54,31 @@
    line-height: 1.8vw;
 }
 
+.like-share  {
+   display: flex;
+   gap: 5px;
+}
+
 .like-share span {
    padding: 0.3vw;
    background-color: blue;
    border-radius: 0.5vw;
+}
+
+#star-container {
+   vertical-align: middle;
+   cursor: pointer;
+   width: 100%;
+   display: flex;
+   margin-bottom: 14px;
+}
+
+.star-widget i {
+   color: #ccc;
+   transition: color 1s ease;
+}
+.star-widget i.active {
+   color: #ff9601;
 }
 
 .hr1 {

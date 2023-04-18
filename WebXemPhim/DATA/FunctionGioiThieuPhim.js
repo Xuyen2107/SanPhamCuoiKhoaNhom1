@@ -43,7 +43,10 @@ export function movieIntroHTML(allMovies, nameCondition) {
                <div class="intro-content">
                   <div class="intro-rate">
                   <div class="like-share">
-                  <span class="like-btn">Thich</span>
+                  <span class="like-btn">
+                     Thich 
+                     <span id="rate-count">${Item.like}</span>
+                  </span>
                   <span>Chia se</span>
                </div>
               <p class="mess">Đánh giá phim:</p>
@@ -62,11 +65,7 @@ export function movieIntroHTML(allMovies, nameCondition) {
                   <p id="ketQua"></p>
               </div>
               <div id="like-rate" class="like-rate">
-                  (
-                  <span id="rate-like">8</span>
-                      đ/
-                  <span id="rate-count">58</span>
-                      lượt)
+                  (<span id="rate-like">${Item.rate}</span>/10)
               </div>
           </div>
 
@@ -121,7 +120,7 @@ export function movieIntroHTML(allMovies, nameCondition) {
                      </div>
                   </div>
                </div>
-               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1.split("/").pop()}" data-width="100%" data-numposts="10"></div>
+               <div class="fb-comments" data-href="http://127.0.0.1:5500/WebXemPhim/HTML/${Item.link1.split("/").pop()}" data-width="100%" data-numposts="5"></div>
             </div>
             
         `;

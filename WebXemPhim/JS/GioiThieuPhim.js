@@ -18,76 +18,77 @@ document.addEventListener("DOMContentLoaded", function () {
    });
 });
 
-//select all elements
-const stars = document.querySelectorAll(".star-widget i");
-const message = document.querySelector("#ketQua");
-const rateLike = document.querySelector('#rate-like');
-//loop through the stars
-let ratingCount = 0;
+document.addEventListener("DOMContentLoaded", function () {
+   const stars = document.querySelectorAll(".star-widget i");
+   const message = document.querySelector("#ketQua");
+   const rateLike = document.querySelector("#rate-like");
+   //loop through the stars
+   let ratingCount = 0;
 
-stars.forEach((star, index1) => {
-    star.addEventListener("click", () => {
-      // Lấy vị trí của ngôi sao được nhấn
-      const position = Array.from(stars).indexOf(star);
-       // Cập nhật giá trị rate-like
-       rateLike.innerText = position + 1; 
-        stars.forEach((star, index2) => {
-            index1 >= index2 ? star.classList.add('active') : star.classList.remove("active");
-        });
+   stars.forEach((star, index1) => {
+      star.addEventListener("click", () => {
+         // Lấy vị trí của ngôi sao được nhấn
+         const position = Array.from(stars).indexOf(star);
+         // Cập nhật giá trị rate-like
+         rateLike.innerText = position + 1;
+         stars.forEach((star, index2) => {
+            index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
+         });
 
-        const rating = index1 + 1;
+         const rating = index1 + 1;
 
-        switch (rating) {
+         switch (rating) {
             case 1:
-              message.innerHTML = "Dở tệ ";
-              break;
+               message.innerHTML = "Dở tệ ";
+               break;
             case 2:
-              message.innerHTML = "Dở";
-              break;
+               message.innerHTML = "Dở";
+               break;
             case 3:
-              message.innerHTML = "Không hay";
-              break;
+               message.innerHTML = "Không hay";
+               break;
             case 4:
-              message.innerHTML = "Không hay lắm";
-              break;
+               message.innerHTML = "Không hay lắm";
+               break;
             case 5:
-              message.innerHTML = "Bình thường";
-              break;
+               message.innerHTML = "Bình thường";
+               break;
             case 6:
-              message.innerHTML = "Xem Được";
-              break;
+               message.innerHTML = "Xem Được";
+               break;
             case 7:
-              message.innerHTML = "Có vẻ hay";
-              break;
+               message.innerHTML = "Có vẻ hay";
+               break;
             case 8:
-              message.innerHTML = "Hay";
-              break;
+               message.innerHTML = "Hay";
+               break;
             case 9:
-              message.innerHTML = "Rất hay";
-              break;
+               message.innerHTML = "Rất hay";
+               break;
             case 10:
-              message.innerHTML = "Tuyệt phẩm";
-              break;
+               message.innerHTML = "Tuyệt phẩm";
+               break;
             default:
-              message.innerHTML = "";
-              break;
-          }
-    });
+               message.innerHTML = "";
+               break;
+         }
+      });
+   });
 });
 
-// lấy các phần tử DOM cần thiết
+document.addEventListener("DOMContentLoaded", function () {
+   const likeBtn = document.querySelector(".like-btn");
 
-const likeBtn = document.querySelector('.like-btn');
+   const rateCount = document.querySelector("#rate-count");
 
-const rateCount = document.querySelector('#rate-count');
+   // thêm sự kiện "click" vào nút "like"
+   likeBtn.addEventListener("click", function () {
+      // lấy giá trị hiện tại của rate-like và rate-count
 
-// thêm sự kiện "click" vào nút "like"
-likeBtn.addEventListener('click', function() {
-    // lấy giá trị hiện tại của rate-like và rate-count
-    
-    let currentCount = parseInt(rateCount.innerText);
+      let currentCount = parseInt(rateCount.innerText);
 
-    // cập nhật lại giá trị của rate-count
-    
-    rateCount.innerText = currentCount + 1;
+      // cập nhật lại giá trị của rate-count
+
+      rateCount.innerText = currentCount + 1;
+   });
 });
