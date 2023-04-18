@@ -40,18 +40,21 @@ export function watchMovieHTML(allMovies, nameCondition) {
                <div class="watch-rate">
                   <p>Đánh giá phim</p>
 
-                  <div class="rate-star" style="color: white">
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                     <i class="fa-solid fa-star"></i>
-                  </div>
+                  <div id="star-container">
+                        <div class="star-widget">
+                        <i class="fa-solid fa-star" title="Dở tệ"></i>
+                        <i class="fa-solid fa-star" title="Dở"></i>
+                        <i class="fa-solid fa-star" title="Không hay"></i>
+                        <i class="fa-solid fa-star" title="Không hay lắm"></i>
+                        <i class="fa-solid fa-star" title="Bình thường"></i>
+                        <i class="fa-solid fa-star" title="Xem Được"></i>
+                        <i class="fa-solid fa-star" title="Có vẻ hay"></i>
+                        <i class="fa-solid fa-star" title="Hay"></i>
+                        <i class="fa-solid fa-star" title="Rất hay"></i>
+                        <i class="fa-solid fa-star" title="Tuyệt phẩm"></i>
+                        <p id="ketQua"></p>
+                        </div>
+                    </div>
                   <div class="like-share">
                      <span>Thích</span>
                      <span>Chia sẻ</span>
