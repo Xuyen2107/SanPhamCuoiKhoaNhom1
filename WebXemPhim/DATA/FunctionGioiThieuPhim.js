@@ -4,8 +4,7 @@ export function movieIntroHTML(allMovies, nameCondition) {
    for (let i = 0; i < arr.length; i++) {
       const Item = arr[i];
 
-      result +=
-         `
+      result += `
         <div>
                <div class="intro-title">
                   <a href="./Home.html" title="Xem Phim">
@@ -47,17 +46,20 @@ export function movieIntroHTML(allMovies, nameCondition) {
                         <span>Thich</span>
                         <span>Chia se</span>
                      </div>
-                     <div class="rate-star" style="color: white">
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
-                        <i class="fa-solid fa-star"></i>
+                     <div id="star-container">
+                        <div class="star-widget">
+                           <i class="fa-solid fa-star" title="Dở tệ"></i>
+                           <i class="fa-solid fa-star" title="Dở"></i>
+                           <i class="fa-solid fa-star" title="Không hay"></i>
+                           <i class="fa-solid fa-star" title="Không hay lắm"></i>
+                           <i class="fa-solid fa-star" title="Bình thường"></i>
+                           <i class="fa-solid fa-star" title="Xem Được"></i>
+                           <i class="fa-solid fa-star" title="Có vẻ hay"></i>
+                           <i class="fa-solid fa-star" title="Hay"></i>
+                           <i class="fa-solid fa-star" title="Rất hay"></i>
+                           <i class="fa-solid fa-star" title="Tuyệt phẩm"></i>
+                           <p id="ketQua"></p>
+                        </div>
                      </div>
 
                      <ul class="content-info">
@@ -118,55 +120,3 @@ export function movieIntroHTML(allMovies, nameCondition) {
    }
    return result;
 }
-
-//select all elements
-const stars = document.querySelectorAll(".star-widget i");
-const message = document.querySelector("#ketQua");
-//loop through the stars
-
-stars.forEach((star, index1) => {
-    star.addEventListener("click", () => {
-        
-        stars.forEach((star, index2) => {
-            index1 >= index2 ? star.classList.add('active') : star.classList.remove("active");
-        });
-
-        const rating = index1 + 1;
-
-        switch (rating) {
-            case 1:
-              message.innerHTML = "Dở tệ ";
-              break;
-            case 2:
-              message.innerHTML = "Dở";
-              break;
-            case 3:
-              message.innerHTML = "Không hay";
-              break;
-            case 4:
-              message.innerHTML = "Không hay lắm";
-              break;
-            case 5:
-              message.innerHTML = "Bình thường";
-              break;
-            case 6:
-              message.innerHTML = "Xem Được";
-              break;
-            case 7:
-              message.innerHTML = "Có vẻ hay";
-              break;
-            case 8:
-              message.innerHTML = "Hay";
-              break;
-            case 9:
-              message.innerHTML = "Rất hay";
-              break;
-            case 10:
-              message.innerHTML = "Tuyệt phẩm";
-              break;
-            default:
-              message.innerHTML = "";
-              break;
-          }
-    });
-});

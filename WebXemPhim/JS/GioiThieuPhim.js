@@ -17,3 +17,54 @@ document.addEventListener("DOMContentLoaded", function () {
       $trailer.scrollIntoView({ behavior: "smooth" });
    });
 });
+
+//select all elements
+const stars = document.querySelectorAll(".star-widget");
+const message = document.querySelector("#ketQua");
+//loop through the stars
+
+stars.forEach((star, index1) => {
+   star.addEventListener("click", () => {
+      stars.forEach((star, index2) => {
+         index1 >= index2 ? star.classList.add("active") : star.classList.remove("active");
+      });
+
+      const rating = index1 + 1;
+
+      switch (rating) {
+         case 1:
+            message.innerHTML = "Dở tệ ";
+            break;
+         case 2:
+            message.innerHTML = "Dở";
+            break;
+         case 3:
+            message.innerHTML = "Không hay";
+            break;
+         case 4:
+            message.innerHTML = "Không hay lắm";
+            break;
+         case 5:
+            message.innerHTML = "Bình thường";
+            break;
+         case 6:
+            message.innerHTML = "Xem Được";
+            break;
+         case 7:
+            message.innerHTML = "Có vẻ hay";
+            break;
+         case 8:
+            message.innerHTML = "Hay";
+            break;
+         case 9:
+            message.innerHTML = "Rất hay";
+            break;
+         case 10:
+            message.innerHTML = "Tuyệt phẩm";
+            break;
+         default:
+            message.innerHTML = "";
+            break;
+      }
+   });
+});
