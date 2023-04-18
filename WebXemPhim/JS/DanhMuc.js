@@ -1,6 +1,7 @@
 import { allMovies } from "../DATA/DataALLMovies.js";
 import { generateHTML } from "../DATA/FunctoinCard.js";
-
+import { getAccounts, createNewAccount } from "./account.js";
+console.log(getAccounts());
 $(document).ready(function () {
    const queryString = window.location.search;
    const urlParams = new URLSearchParams(queryString);

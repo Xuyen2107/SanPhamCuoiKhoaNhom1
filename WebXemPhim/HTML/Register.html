@@ -1,99 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Document</title>
-      <!-- Cần link lại file nếu chuyển folder -->
-      <link rel="stylesheet" href="../CSS/Register.css" />
-      <script src="https://kit.fontawesome.com/d9a3257eee.js" crossorigin="anonymous"></script>
-      <!-- Cần link lại file nếu chuyển folder -->
-      <script type="module" src="../JS/Register.js"></script>
-   </head>
-   <body>
-      <nav id="nav">
-         <div class="login">
-            <i onclick="document.getElementById('login-modal').style.display='block'" class="fa-regular fa-user fa-xl" style="color: #ffffff"></i>
-         </div>
-      </nav>
 
-      <div id="login-modal">
-         <div id="id01" class="modal">
-            <div class="col-left">
-               <img id="img-modal" src="../Image/Modal_image.png" alt="Xem phim" />
-            </div>
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Document</title>
+   <!-- Cần link lại file nếu chuyển folder -->
+   <link rel="stylesheet" href="../CSS/Register.css" />
+   <script src="https://kit.fontawesome.com/d9a3257eee.js" crossorigin="anonymous"></script>
+   <!-- Cần link lại file nếu chuyển folder -->
+   <script type="module" src="../JS/Register.js"></script>
+</head>
 
-            <div class="col-right">
-               <span class="close">&times;</span>
-               <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-               <h3>Thành viên đăng nhập</h3>
-
-               <form action="email">
-                  <label for="email">Email</label><br />
-                  <div class="email">
-                     <i class="fa-regular fa-envelope fa-xl"></i>
-                     <input type="email" class="email-input" name="email" id="email" placeholder="Email" required />
-                  </div>
-               </form>
-               <br />
-
-               <form action="password">
-                  <label for="password">Mật khẩu</label><br />
-                  <div class="password">
-                     <i class="fa-solid fa-lock fa-xl"></i>
-                     <input type="password" class="password-input" placeholder="Mật khẩu" required />
-                  </div>
-               </form>
-               <br />
-
-               <button id="btn-login" onclick="handleDangNhap()">Đăng nhập</button>
-               <p>
-                  <a href="#">Quên tài khoản/mật khẩu?</a>
-               </p>
-               <p id="register-text"><a href="#">Tạo tài khoản mới</a></p>
-            </div>
-         </div>
+<body>
+   <nav id="nav">
+      <div class="login">
+         <i onclick="document.getElementById('login-modal').style.display='block'" class="fa-regular fa-user fa-xl"
+            style="color: #ffffff"></i>
       </div>
+   </nav>
 
-      <div id="register-modal">
-         <div id="id2" class="modal">
-            <div class="col-left">
-               <img id="img-modal" src="./Modal_image.png" alt="Xem phim" />
-            </div>
+   <div id="login-modal">
+      <div id="id01" class="modal">
+         <div class="col-left">
+            <img id="img-modal" src="../Image/Modal_image.png" alt="Xem phim" />
+         </div>
 
-            <div class="col-right">
-               <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-               <h3>Thành viên đăng kí</h3>
+         <div class="col-right">
+            <span class="close">&times;</span>
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+               title="Close Modal">&times;</span>
+            <h3>Thành viên đăng nhập</h3>
 
-               <form action="email">
-                  <label for="email">Email</label><br />
-                  <div class="email">
-                     <i class="fa-regular fa-envelope fa-xl"></i>
-                     <input type="email" class="email-input" name="email" placeholder="Email" required />
-                  </div>
-               </form>
-               <br />
+            <form action="email">
+               <label for="email">Email</label><br />
+               <div class="email">
+                  <i class="fa-regular fa-envelope fa-xl"></i>
+                  <input type="email" class="email-input" name="email" id="email" placeholder="Email" required />
+               </div>
+            </form>
+            <br />
 
-               <form action="password">
-                  <label for="password">Mật khẩu</label><br />
-                  <div class="password">
-                     <i class="fa-solid fa-lock fa-xl"></i>
-                     <input class="password-input" type="password" placeholder="Mật khẩu" id="password" required />
-                  </div>
-               </form>
-               <br />
-
-               <form action="password"></form>
-               <label for="retype-password">Nhập lại mật khẩu</label><br />
+            <form action="password">
+               <label for="password">Mật khẩu</label><br />
                <div class="password">
                   <i class="fa-solid fa-lock fa-xl"></i>
-                  <input id="retype-password" class="password-input" type="password" placeholder="Mật khẩu" required />
+                  <input type="password" class="password-input" placeholder="Mật khẩu" required />
                </div>
+            </form>
+            <br />
 
-               <button id="btn-register">Đăng ký</button>
-            </div>
+            <button id="btn-login" onclick="handleDangNhap()">Đăng nhập</button>
+            <p>
+               <a href="#">Quên tài khoản/mật khẩu?</a>
+            </p>
+            <p id="register-text"><a href="#">Tạo tài khoản mới</a></p>
          </div>
       </div>
-   </body>
+   </div>
+
+   <div id="register-modal">
+      <div id="id2" class="modal">
+         <div class="col-left">
+            <img id="img-modal" src="./Modal_image.png" alt="Xem phim" />
+         </div>
+
+         <div class="col-right">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close"
+               title="Close Modal">&times;</span>
+            <h3>Thành viên đăng kí</h3>
+
+            <form action="email">
+               <label for="email">Email</label><br />
+               <div class="email">
+                  <i class="fa-regular fa-envelope fa-xl"></i>
+                  <input id="email-register" type="email" class="email-input" name="email" placeholder="Email"
+                     required />
+               </div>
+            </form>
+            <br />
+
+            <form action="password">
+               <label for="password">Mật khẩu</label><br />
+               <div class="password">
+                  <i class="fa-solid fa-lock fa-xl"></i>
+                  <input class="password-input" type="password" placeholder="Mật khẩu" id="password" required />
+               </div>
+            </form>
+            <br />
+
+            <form action="password"></form>
+            <label for="retype-password">Nhập lại mật khẩu</label><br />
+            <div class="password">
+               <i class="fa-solid fa-lock fa-xl"></i>
+               <input id="retype-password" class="password-input" type="password" placeholder="Mật khẩu" required />
+            </div>
+
+            <button id="btn-register">Đăng ký</button>
+         </div>
+      </div>
+   </div>
+</body>
+
 </html>
