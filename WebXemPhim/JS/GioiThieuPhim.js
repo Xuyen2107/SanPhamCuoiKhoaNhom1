@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
    const stars = document.querySelectorAll(".star-widget i");
    const message = document.querySelector("#ketQua");
-   const rateLike = document.querySelector("#rate-like");
+   const rateLike = document.querySelector("#rate-count");
    //loop through the stars
    let ratingCount = 0;
 
@@ -79,7 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
    const likeBtn = document.querySelector(".like-btn");
 
-   const rateCount = document.querySelector("#rate-count");
+   const rateCount = document.querySelector("#rate-like");
 
    // thêm sự kiện "click" vào nút "like"
    likeBtn.addEventListener("click", function () {

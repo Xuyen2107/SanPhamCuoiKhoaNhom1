@@ -50,19 +50,22 @@
 
 .watch-rate {
    color: white;
-   font-size: 1.2vw;
-   line-height: 1.8vw;
+   font-size: 1.3rem;
+   line-height: 2rem;
 }
 
-.like-share  {
+.like-share {
    display: flex;
    gap: 5px;
+   margin: 10px 0px;
 }
 
-.like-share span {
-   padding: 0.3vw;
+.like-share > span {
    background-color: blue;
-   border-radius: 0.5vw;
+   padding: 5px;
+   color: #fff;
+   cursor: pointer;
+   border-radius: 5px;
 }
 
 #star-container {
@@ -92,8 +95,7 @@
 
 .watch-name p {
    color: orange;
-   font-size: 2vw;
-   margin-bottom: 0.5vw;
+   font-size: 2rem;
 }
 .watch-name span {
    font-size: 1.2vw;
@@ -143,11 +145,20 @@
       font-size: 0.6rem;
    }
 
+   .rate-star i {
+      font-size: small;
+   }
+
    .watch-name p {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      
+   }
+
+   .like-share span {
+      font-size: 1rem;
    }
 
    .watch-name span {
-      font-size: 0.6rem;
+      font-size: 0.8rem;
    }
 }
