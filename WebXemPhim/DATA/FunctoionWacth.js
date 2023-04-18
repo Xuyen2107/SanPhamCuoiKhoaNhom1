@@ -43,7 +43,7 @@ export function watchMovieHTML(allMovies, nameCondition) {
                   Thich 
                   <span id="rate-count">${Item.like}</span>
                </span>
-               <span>Chia se</span>
+               <span>Chia sẻ</span>
             </div>
            <p class="mess">Đánh giá phim:</p>
            <div id="star-container">
