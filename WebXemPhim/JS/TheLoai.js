@@ -2,14 +2,10 @@ import { allMovies } from "../DATA/DataALLMovies.js";
 import { generateHTML } from "../DATA/FunctoinCard.js";
 
 $(document).ready(function () {
-   // Lấy tham số truyền vào URL
    const queryString = window.location.search;
    const urlParams = new URLSearchParams(queryString);
-
-   // Lấy giá trị của tham số "category"
    const categoryParam = urlParams.get("Phim");
 
-   // Nếu tham số "category" có giá trị là "phimbo"
    if (categoryParam === "PhimAnime") {
       $("#category-text").text("PHIM ANIME");
       $(".title-home span").text("Phim Anime");

@@ -15,7 +15,7 @@ const allMovies = [
       actor: ["Akira Kamiya", "Chika Sakamoto", "Kazue Ikura", "Mami Koyama", "Marie Iitoyo", "Tesshō Genda", "Yôko Asagami"],
       time: " 114 Phút",
       rate: 8,
-      like:12,
+      like: 12,
       review:
          "Thợ Săn Thành Phố: Căn Cứ Bí Mật Shinjuku City Hunter: Shinjuku Private Eyes 2019 Full HD Vietsub Thuyết Minh Thám tử tư Ryo Saeba được thuê để bảo vệ con gái của một nhà khoa học vừa qua đời trong một vụ tai nạn giao thông đáng ngờ.",
       link1: "./GioiThieuPhim.html?Phim=tho-san-thanh-pho-can-cu-bi-mat-shinjuku",
@@ -58,7 +58,7 @@ const allMovies = [
       time: " 100 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Kumiko Oumae hiện đang học năm thứ hai, gặp phải lứa năm nhất kỳ quặc, dẫn đến xích mích và xung đột giữa các thành viên trong dàn giao hưởng. Tuy nhiên, thời gian trôi qua, nội tâm của họ từ từ được sáng tỏ, nhưng không phải mâu thuẫn nào cũng dễ giải quyết như mâu thuẫn khác. Niềm tin và sự gắn bó giữa các thành viên trong dàn giao hưởng sẽ được thử thách trong khi luyện tập. Lần này, họ nhắm đến giải vàng toàn quốc. Liệu mong muốn đó có suôn sẻ?",
       link1: "./GioiThieuPhim.html?Phim=hibike-euphonium-movie-3-chikai-no-finale",
       link2: "./XemPhim.html?Phim=hibike-euphonium-movie-3-chikai-no-finale",
@@ -78,7 +78,7 @@ const allMovies = [
       actor: ["Saori Hayami", "Yuuichi Nakamura"],
       time: " 60 Phút",
       rate: 8.8,
-      review: 
+      review:
          "Nhìn Miyuki và Tatsuya bây giờ, có lẽ khó có thể tưởng tượng họ giống như bất cứ thứ gì khác ngoài tình cảm anh em ruột thịt. Nhưng không phải lúc nào cũng như vậy ..Ba năm trước, Miyuki luôn cảm thấy không thoải mái khi ở cạnh anh trai mình. Những người còn lại trong gia đình họ đối xử với anh không tốt hơn một người hầu thấp hèn, mặc dù anh là Người bảo vệ hoàn hảo, trông chừng Miyuki trong khi cô sống một cuộc sống bình thường ở trường cấp hai. Nhưng điều khiến cô thực sự bận tâm là anh không bao giờ bộc lộ bất kỳ cảm xúc hay suy nghĩ nào của riêng mình.Tuy nhiên, khi nguy hiểm ập đến trong chuyến đi định mệnh đến Okinawa, mối quan hệ anh em của họ sẽ thay đổi mãi mãi…",
       link1: "./GioiThieuPhim.html?Phim=mahouka-koukou-no-rettousei-tsuioku-hen",
       link2: "./XemPhim.html?Phim=mahouka-koukou-no-rettousei-tsuioku-hen",
@@ -99,7 +99,7 @@ const allMovies = [
       time: " 94 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Chắc cũng chẳng mấy lạ lẫm vs các bạn thích xem Anime thời gian tầm 1,2 nămgần đây nhỉ . Hì, đây là một tập Movie về CLANNAD. Một bộ Anime tuyệt phẩm ngập tràncảm xúc, chắc không ít bạn đã phải rưng rưng nước mắt vì nó phải không ^^!.Nhưng trước khi xem, bạn hãy đọc kĩ P/S của mình ^^P/S: Đây là 1 tập Movie được làm trước cả 2 TV Series là CLANNAD và CLANNAD ~After Story~.Nên Animation không đẹp bằng TV vì nó cách nhau tới 1 năm lận . Thêm nữa là, nội dung của nó,có lẽ là nội dung gốc rồi mới xây dựng nên TV chăng, điều này tớ không rõ . Nhưng sau khi tớđã xem thì, nội dung của nó, gần như khác khoảng 50% so với TVs. Tớ không dám đảm bảo lànó sẽ hay = TV, vì theo nhận xét của riêng tớ thì không bằng . Mình cũng là một fan hâm mộcủa CLANNAD từ ngày đầu xuất bản TV . Nên không thể để Movie nằm trơ trọi như vậy đc .Cúi cùng tớ quýt định sub để mang đến cho các bạn phần còn lại bị bỏ sót của CLANNAD.",
       link1: "./GioiThieuPhim.html?Phim=clannad-movie",
       link2: "./XemPhim.html?Phim=clannad-movie",
@@ -120,7 +120,7 @@ const allMovies = [
       time: "25 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Đấu Phá Thương Khung Ước Hẹn 3 Năm - Đấu Phá Thương Khung: Tam Niên Chi Ước kể về câu chuyện ba năm trước, Vân Lam Tông thiếu tông chủ Nạp Lan Yên Nhiên đột nhiên hủy bỏ hôn ước, Tiêu Viêm vì cảm thấy bị sỉ nhục nên đã đặt ra lời ước hẹn 3 năm. Chính vì lời hẹn này Tiêu Viêm không ngừng nỗ lực, đi rèn luyện từ dãy núi Ma Thú đến sa mạc Tháp Qua Nhĩ, từ việc học luyện đan cho đế nỗi đau khổ khi thu phục dị hỏa, tất cả chỉ vì chứng minh câu nói “Ba mươi năm hà đông, ba mươi năm hà tây, mạc khi thiếu niên cùng”. Giờ đây, nam nhi Tiêu gia sẽ vượt sóng mà lên, mãi không lui bước, quãng đường cho sự trưởng thành của Tiêu Viêm sẽ còn rất dài…",
       link1: "./GioiThieuPhim.html?Phim=dau-pha-thuong-khung-tam-nien-chi-uoc",
       link2: "./XemPhim.html?Phim=dau-pha-thuong-khung-tam-nien-chi-uoc",
@@ -141,7 +141,7 @@ const allMovies = [
       time: " 101 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "My Hero Academia: World Heroes Mission nói về một nhóm những người chống đối những người có năng lực đã phá hủy một thành phố bằng việc giải phóng một loại khí, khiến cho tất cả năng lực của những người dân nơi đây bị vượt tầm kiểm soát, những người hùng vĩ đại nhất của Nhật Bản đã phân tán khắp thế giới để tìm kiếm kẻ cầm đầu và đưa hắn ta ra trước công lý. Là một phần của đội Endeavour, Deku, Bakugo và Todoroki đi đến quốc gia Otheon ở Châu u. Nhưng sau khi ngăn chặn một vụ cướp không thành công, Deku vô tình bị buộc tội giết người hàng loạt và đang chạy trốn với một tên tội phạm, cùng dưới sự truy đuổi gắt gao của cảnh sát và những kẻ khủng bố đang theo dõi mình.",
       link1: "./GioiThieuPhim.html?Phim=hoc-vien-anh-hung-3-nhiem-vu-giai-cuu-the-gioi",
       link2: "./XemPhim.html?Phim=hoc-vien-anh-hung-3-nhiem-vu-giai-cuu-the-gioi",
@@ -162,7 +162,7 @@ const allMovies = [
       time: " 114 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Kousuke và Natsume là bạn từ khi còn nhỏ, nhưng theo thời gian, mối quan hệ giữa hai người trở nên căng thẳng nên họ luôn tránh mặt nhau.Một ngày trong kỳ nghỉ hè, họ đến thăm một khu nhà ở dự kiến ​​sẽ bị phá bỏ. Lớn lên ở đó, nơi lưu giữ rất nhiều kỷ niệm, nhưng khi đang chơi đùa, họ bất ngờ bị cuốn vào một hiện tượng kỳ bí. Khi tỉnh lại, họ nhìn thấy cả một đại dương trước mắt khi khu nhà ở đã trôi vào một vùng biển bí ẩn với Kousuke, Natsume và những người khác trong đó. Liệu họ có thể trở lại thế giới trước đây của họ? Một hành trình chia tay mùa hè bắt đầu...",
       link1: "./GioiThieuPhim.html?Phim=toa-nha-troi-dat",
       link2: "./XemPhim.html?Phim=toa-nha-troi-dat",
@@ -183,7 +183,7 @@ const allMovies = [
       time: " 63 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Trong khi điều tra truyền thuyết về Pokémon thần thoại Arceus, Ash, Goh và ‘Dam’ đã khám phá ra một âm mưu của Team Galactic đe dọa thế giới. Hãy sẵn sàng để tận hưởng sự trở lại một lần nữa, của một trong những nhân vật được yêu thích nhất của nhượng quyền thương mại, trong Biên niên sử Arceus.",
       link1: "./GioiThieuPhim.html?Phim=pokemon-bien-nien-su-arceus",
       link2: "./XemPhim.html?Phim=pokemon-bien-nien-su-arceus",
@@ -204,7 +204,7 @@ const allMovies = [
       time: " 120 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Yuru Camp Movie Laid-Back Camp: The Movie (Eiga Yuru Camp) 2022 Full HD Vietsub Thuyết Minh là một bộ phim anime điện ảnh dựa trên bộ truyện Dã ngoại thảnh thơi của tác giả Afro, do C-Station sản xuất và được phân phối bởi DeNA. Bộ phim do Yoshiaki Kyōgoku đạo diễn và kịch bản được chấp bút bởi Jin Tanaka và Mutsumi Ito.",
       link1: "./GioiThieuPhim.html?Phim=yuru-camp-movie",
       link2: "./XemPhim.html?Phim=yuru-camp-movie",
@@ -225,8 +225,7 @@ const allMovies = [
       time: " 52 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "Khi các thế lực hiểm ác đe dọa hòa bình của Britannia, một hoàng tử trẻ dấn thân vào hành trình nguy hiểm để cứu người thân cũng như khám phá sức mạnh thực sự của mình.",
+      review: "Khi các thế lực hiểm ác đe dọa hòa bình của Britannia, một hoàng tử trẻ dấn thân vào hành trình nguy hiểm để cứu người thân cũng như khám phá sức mạnh thực sự của mình.",
       link1: "./GioiThieuPhim.html?Phim=that-hinh-dai-toi-moi-thu-edinburgh-phan-1",
       link2: "./XemPhim.html?Phim=that-hinh-dai-toi-moi-thu-edinburgh-phan-1",
       iframe: "https://www.youtube.com/embed/hskfrLEkrxc",
@@ -246,7 +245,7 @@ const allMovies = [
       time: " 94 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Loạt phim xoay quanh Joelle Davidovich Pomponette (Pompo-san) một nhà sản xuất phim tài năng tại kinh đô điện ảnh Nyallywood. Mặc dù có khả năng nhìn thấu tiềm năng của các diễn viên và nhân viên và phát huy hết tài năng của họ, nhưng cô chỉ biết đến với những bộ phim hạng B. Một ngày nọ, trợ lý Gene của Pompo, người luôn nghi ngờ về lựa chọn thể loại phim của cô, được giao nhiệm vụ đạo diễn một bộ phim dựa trên kịch bản do cô viết. Liệu Gene có thể đưa kiệt tác của Pompo thành hiện thực?",
       link1: "./GioiThieuPhim.html?Phim=eiga-daisuki-pompo-san",
       link2: "./XemPhim.html?Phim=eiga-daisuki-pompo-san",
@@ -267,7 +266,7 @@ const allMovies = [
       time: " 30 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Bị xe tải tông vào năm 17 tuổi, chú của Takafumi bất ngờ tỉnh dậy sau cơn hôn mê kéo dài 17 năm. Khi Takafumi đến thăm anh trong bệnh viện, anh thấy chú của mình đang lẩm bẩm những điều vô nghĩa, quả quyết rằng anh đã trở về từ một thế giới khác có tên là “GRAN-BAHAMAL”.",
       link1: "./GioiThieuPhim.html?Phim=isekai-ojisan",
       link2: "./XemPhim.html?Phim=isekai-ojisan",
@@ -288,8 +287,7 @@ const allMovies = [
       time: " 25 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "Nối tiếp những câu chuyện giữa phe ác nhân và phe anh hùng ở mùa trước, ở phần tiếp theo đây chúng ta sẽ được chiêm ngưỡng tới cuộc chiến toàn tổng lực giữa hai phe chính và ta.",
+      review: "Nối tiếp những câu chuyện giữa phe ác nhân và phe anh hùng ở mùa trước, ở phần tiếp theo đây chúng ta sẽ được chiêm ngưỡng tới cuộc chiến toàn tổng lực giữa hai phe chính và ta.",
       link1: "./GioiThieuPhim.html?Phim=hoc-vien-anh-hung-6",
       link2: "./XemPhim.html?Phim=hoc-vien-anh-hung-6",
       iframe: "https://www.youtube.com/embed/qoA7Y-AHSvY",
@@ -309,7 +307,7 @@ const allMovies = [
       time: " 24 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Qua đời vì bệnh tật ở tuổi 39, Machio Hiraku được trao cơ hội đến một thế giới khác. Khi được Thượng đế hỏi ông mong muốn điều gì, ông chọn có một cơ thể khỏe mạnh, điều ước thứ hai, ông chọn cuộc sống bình yên, điều ước thứ ba là có thể biết tiếng địa phương và điều ước cuối cùng là có thể trở thành một nông dân.",
       link1: "./GioiThieuPhim.html?Phim=cuoc-song-nong-dan-o-the-gioi-khac",
       link2: "./XemPhim.html?Phim=cuoc-song-nong-dan-o-the-gioi-khac",
@@ -330,7 +328,7 @@ const allMovies = [
       time: " 24 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "xoay quanh câu chuyện mà mọi người đều biết về người lính mạnh nhất, Magician Iceblade, Ray White. Sau khi vượt qua một cuộc chiến đẫm máu, Ray đăng ký vào Học viện Arnold, sẵn sàng trải nghiệm một cuộc sống bình thường—một điều xa xỉ mà anh chưa từng có. Để đạt được mục tiêu này, anh ta giữ bí mật danh tính của mình là Pháp sư Băng kiếm. Mặc dù bị tẩy chay vì là thường dân, Ray kết bạn với Amelia Rose kiêu hãnh nhưng tốt bụng, Evy Armstrong cơ bắp và Elisa nhút nhát và mọt sách. Tuy nhiên, Ray được giao nhiệm vụ săn lùng một điệp viên có động cơ vẫn chưa rõ ràng...",
       link1: "./GioiThieuPhim.html?Phim=phu-thuy-bang-kiem-se-thong-tri-the-gioi",
       link2: "./XemPhim.html?Phim=phu-thuy-bang-kiem-se-thong-tri-the-gioi",
@@ -351,7 +349,7 @@ const allMovies = [
       time: " 23 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Vạn vật đều có linh hồn, người có thể triệu hồi linh hồn vạn vật gọi là triệu hồi sư. Từ xưa tới nay, truyền thuyết của các triệu hồi sư được giấu trong mỗi đoạn lịch sử. Nay, thời đại mới, triệu hồi sư vừa thức tỉnh, A Kiệt lập chí trở thành vua kéo mì vô tình triệu hồi nữ thần Dora. Từ nay bước vào thế giới của triệu hồi sư. Trong mỗi lần chiến đấu và mạo hiểm, các thiếu niên có thể nắm được vận mệnh của mình, khám phá ra được sự thật của thế giới không?",
       link1: "./GioiThieuPhim.html?Phim=trieu-hoi-su-cuoi-cung",
       link2: "./XemPhim.html?Phim=trieu-hoi-su-cuoi-cung",
@@ -372,8 +370,7 @@ const allMovies = [
       time: " 4 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "Anime ngắn dựa trên sê-ri 4-koma minh họa cuộc sống hàng ngày của các thành viên Câu lạc bộ thần tượng trường trung học Nijigasaki.",
+      review: "Anime ngắn dựa trên sê-ri 4-koma minh họa cuộc sống hàng ngày của các thành viên Câu lạc bộ thần tượng trường trung học Nijigasaki.",
       link1: "./GioiThieuPhim.html?Phim=nijiyon-animation",
       link2: "./XemPhim.html?Phim=nijiyon-animation",
       iframe: "https://www.youtube.com/embed/DPO4FPUNIzE",
@@ -393,7 +390,7 @@ const allMovies = [
       time: " 23 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "nói về Tsukumogami, linh hồn hoặc marebito có thể sở hữu những đồ vật có tuổi đời đáng kể và có hình dạng vật chất. Mặc dù anh ta là một phần của gia tộc Saenome chịu trách nhiệm đưa họ trở lại thế giới của họ một cách hòa bình, nhưng Hyouma Kunato lại coi thường họ vì một người đã lấy đi những gì rất quý giá đối với anh ta. Để giải bỏ tình huống này, ông nội của Hyouma gửi anh đến sống với Botan Nagatsuki, một cô gái là chủ nhân của sáu tsukumogami thân thiện và sống với họ như một gia đình.",
       link1: "./GioiThieuPhim.html?Phim=malevolent-spirits-mononogatari-2023",
       link2: "./XemPhim.html?Phim=malevolent-spirits-mononogatari-2023",
@@ -415,7 +412,7 @@ const allMovies = [
       time: " 24 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Sau sự phản bội của những người bạn đồng hành, Haruyoshi, nhà tiên tri mạnh nhất đã hấp hối. Với hy vọng được hạnh phúc ở kiếp sau, anh ta đã thử thuật tái sinh bí mật và đã được đến một thế giới khác",
       link1: "./GioiThieuPhim.html?Phim=am-duong-su-manh-nhat-chuyen-sinh",
       link2: "./XemPhim.html?Phim=am-duong-su-manh-nhat-chuyen-sinh",
@@ -436,7 +433,7 @@ const allMovies = [
       time: " 114 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Thanh Âm Tình Đầu xoay quanh câu chuyện của hai bạn sinh viên trẻ cùng học tại một trường đại học, nhưng lại sống ở hai mốc thời gian khác nhau: Kim Yong sống vào năm 1999, và Mo-nee sống vào năm 2022. Cả hai tình cờ có được một chiếc radio cũ kỹ. Trong lần nguyệt thực toàn phần vào năm 1999 và 2022, cặp đôi này có thể liên lạc với nhau xuyên thời gian một cách kỳ diệu thông qua radio. Họ bắt đầu tâm sự về câu chuyện tình yêu cũng như tình bạn của mỗi người.",
       link1: "./GioiThieuPhim.html?Phim=thanh-am-tinh-dau",
       link2: "./XemPhim.html?Phim=thanh-am-tinh-dau",
@@ -457,7 +454,7 @@ const allMovies = [
       time: " 125 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "mang thể loại tình cảm lãng mạng, xen lẫn những pha hài hước vui nhộn, của Thái Lan sản xuất năm 2022, dưới sự chỉ đạo của Thitipong Kerdtongtawee, cùng các diễn viên tham gia Wongravee Nateetorn, Plearnpichaya Komalarajun, Pachara Chirathivat,...Nội dung xoay quanh anh chàng Guy gặp nhiều trắc trở trong tình tình yêu vì tính vụng về của mình, vậy mà anh ta lại đem lòng yêu 1 hot girl của trường là June, một cô gái xinh đẹp thông mình, có rất nhiều chàng trai quây quanh cô ấy, đã vậy June còn nổi tiếng với biệt danh là Tráp Gơ ám chỉ cô nàng chỉ thích chơi đùa với tình cảm ngườ khác. Mặc dù Guy biết điều đó nhưng vẫn đem lòng yêu nàng, lao vào như con thiêu thân chấp nhận sa vào lưới tình, trong khi lúc này June đang có bạn trai bên cạnh. Trớ trêu thay khi June chia tay với người yêu, thì cũng là lúc Guy đã quen 1 cô gái khác, điều này lặp đi lặp lại làm cản trở 2 người họ có được 1 tình yêu bên nhau. Về sau 2 người quyết định xem nhau là bạn thân vì không thể gặp nhau cùng 1 giao điểm tình yêu. Nhưng với tình cảm mà Guy dành cho June thì vẫn còn, liệu rằng có đủ sức để biến quan hệ này thành đúng người, đúng thời điểm hay không?",
       link1: "./GioiThieuPhim.html?Phim=quyet-tam-cua-em",
       link2: "./XemPhim.html?Phim=quyet-tam-cua-em",
@@ -478,7 +475,7 @@ const allMovies = [
       time: " 107 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          " The Movie Full Vietsub sau thành công vang dội khắp Châu Á năm 2019, bộ phim Muốn Gặp Anh phiên bản điện ảnh với câu chuyện tình yêu vượt cả không gian và thời gian hoàn toàn mới mẻ sẽ ra mắt trên màn ảnh rộng. Liệu rằng Hoàng Vũ Huyên và Lý Tử Duy có thể thay đổi số phận mỗi khi giai điệu bài hát Last Dance vang lên?",
       link1: "./GioiThieuPhim.html?Phim=muon-gap-anh-ban-dien-anh",
       link2: "./XemPhim.html?Phim=muon-gap-anh-ban-dien-anh",
@@ -499,7 +496,7 @@ const allMovies = [
       time: " 100 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Trong khi đi nghỉ tại một cabin hẻo lánh, một bé gái và hai cha của cô bị bắt làm con tin bởi bốn kẻ lạ mặt có vũ trang. Những người này yêu cầu gia đình phải đưa ra một lựa chọn không tưởng để ngăn chặn ngày tận thế. Khả năng tiếp cận với thế giới bên ngoài là không thể, gia đình nhỏ này sẽ phải quyết định những gì họ tin tưởng trước khi tất cả phải đổi diện với tử thần.",
       link1: "./GioiThieuPhim.html?Phim=tieng-go-o-can-nha-go",
       link2: "./XemPhim.html?Phim=tieng-go-o-can-nha-go",
@@ -520,7 +517,7 @@ const allMovies = [
       time: " 122 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Đưa Em Tìm Mối Tình Đầu - Life is Beautiful (VietSub - Thuyết Minh) xoay quanh cuộc sống của 2 vợ chồng trong chuyến hành trình trình tìm lại ký ức đẹp đẻ của mối tình đầu khi còn trẻ. Bởi người vợ từ khi lấy chồng đã đánh đổi quá nhiều cho chồng con, hy sinh suốt 20 năm thanh xuân chỉ để ở nhà làm nội trợ, giờ đây người chồng và các con làm tất cả để bù đắp cho cô",
       link1: "./GioiThieuPhim.html?Phim=dua-em-tim-moi-tinh-dau",
       link2: "./XemPhim.html?Phim=dua-em-tim-moi-tinh-dau",
@@ -541,7 +538,7 @@ const allMovies = [
       time: " 126 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Otto Bác Hàng Xóm Khó Ở kể về Otto là một người cục cằn đã từ bỏ cuộc sống sau khi mất vợ và muốn kết thúc tất cả. Khi một gia đình trẻ chuyển đến ở gần đó, anh ấy gặp người phù hợp với mình là Marisol nhanh trí, dẫn đến một tình bạn sẽ thay đổi thế giới của anh ấy.",
       link1: "./GioiThieuPhim.html?Phim=otto-bac-hang-xom-kho-o",
       link2: "./XemPhim.html?Phim=otto-bac-hang-xom-kho-o",
@@ -562,7 +559,7 @@ const allMovies = [
       time: " 108 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "kể về một nhà ngoại giao và một đặc vụ NIS (Cơ quan Tình báo Quốc gia) đến Afghanistan để cứu những người Hàn Quốc đã vô tình trở thành con tin của Taliban trong một vụ bắt cóc vô cùng nguy hiểm.",
       link1: "./GioiThieuPhim.html?Phim=dam-phan",
       link2: "./XemPhim.html?Phim=dam-phan",
@@ -583,8 +580,7 @@ const allMovies = [
       time: " 111 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "kể về câu chuyện sau khi người mẹ mất tích, một cô gái trẻ cố gắng tìm mẹ ở nhà bằng các công cụ có sẵn trên mạng. Tuy nhiên, ....",
+      review: "kể về câu chuyện sau khi người mẹ mất tích, một cô gái trẻ cố gắng tìm mẹ ở nhà bằng các công cụ có sẵn trên mạng. Tuy nhiên, ....",
       link1: "./GioiThieuPhim.html?Phim=mat-tich-2023",
       link2: "./XemPhim.html?Phim=mat-tich-2023",
       iframe: "https://www.youtube.com/embed/8WYDo6KcQ3E",
@@ -604,7 +600,7 @@ const allMovies = [
       time: " 112 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "mang thể loại hài hước vui nhộn của Hàn Quốc sản xuất năm 2023, do đạo diễn IM Jin-soon, cùng sự góp mặt tham gia của các diễn viên nổi tiếng MA Dong-seok, JUNG Kyung-ho, OH Na-ra, CHOI Byung-mo, OH Yeon-seo,...Nội dung nói về Dae Guk một ông trùm điều hành cả 1 khu phố giữa lòng trung tâm Seoul, sở dĩ anh được đứng vị trí cao đó là nhờ vào biệt tài đàm phán tuyệt hảo. Không muốn dừng lại ở đó, Ông trùm còn muốn mở thêm 1 trung tâm thẩm mỹ to lớn nhất Hàn Quốc, đây là ước mơ ấp ủ bấy lâu nay của Dae Guk nhờ vào sự trợ giúp của Ji Woo một bác sĩ thẩm mỹ nổi tiếng, tuy nhiên lại bị mất cắt giấy phép hành nghề. Liệu rằng họ có hoàn thành được khát khao to lớn ấy hay không? mời các bạn cùng đón xem phim Ông Trùm Mông Má - Men Of Plastic.",
       link1: "./GioiThieuPhim.html?Phim=ong-trum-mong-ma",
       link2: "./XemPhim.html?Phim=ong-trum-mong-ma",
@@ -625,7 +621,7 @@ const allMovies = [
       time: " 114 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "xoay quanh đặc vụ M16 Orson Fortune (do đát-đi Jason Statham thủ vai) và nhóm đặc nhiệm cool ngầu cùng thực hiện nhiệm vụ ngăn chặn âm mưu trao đổi món hàng khiến nhiều người đăng xuất hàng loạt. Sinh mạng của nhiều quốc gia đều phụ thuộc vào phi vụ này.",
       link1: "./GioiThieuPhim.html?Phim=phi-vu-toan-sao",
       link2: "./XemPhim.html?Phim=phi-vu-toan-sao",
@@ -646,7 +642,7 @@ const allMovies = [
       time: " 116 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Đây là phần phim thứ mười lăm trong loạt phim điện ảnh của One Piece, dựa trên bộ truyện manga nổi tiếng cùng tên của tác giả Eiichiro Oda. Phim được công bố lần đầu tiên vào ngày 21 tháng 11, 2021 để kỷ niệm sự ra mắt của tập phim thứ 1000 của bộ anime One Piece và sau khi tập phim này được phát sóng, đoạn quảng cáo và áp phích chính thức của phim cũng chính thức được công bố. Phim dự kiến sẽ phát hành vào ngày 6 tháng 8 năm 2022. Bộ phim được giới thiệu sẽ là hành trình xoay quanh một nhân vật nữ mới cùng với Shanks Tóc Đỏ.",
       link1: "./GioiThieuPhim.html?Phim=one-piece-film-red-2022",
       link2: "./XemPhim.html?Phim=one-piece-film-red-2022",
@@ -667,7 +663,7 @@ const allMovies = [
       time: " 122 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "lấy bối cảnh ở thành phố New York, nơi một số nhân vật sống sót sau các sự kiện của phần phim Scream thứ 5 chuyển đến, bao gồm con gái của Billy Loomis, Sam Carpenter, em gái của cô Tara Carpenter, người bạn Mindy Meeks-Martin và anh trai sinh đôi của cô ấy Chad Meeks-Martin. Rời khỏi thị trấn Woodsboro - nơi diễn ra những vụ án mạng Ghostface trong nhiều năm, nhóm bạn mong có thể thoát khỏi tên sát nhân khét tiếng này, nhưng họ lại không thể ngờ, không những không chấm dứt mà điều này còn mở ra một chương ám sát kinh hoàng hoàn toàn mới.",
       link1: "./GioiThieuPhim.html?Phim=tieng-thet-6",
       link2: "./XemPhim.html?Phim=tieng-thet-6",
@@ -688,7 +684,7 @@ const allMovies = [
       time: " 90 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Chuyện phim cuốn khán giả vào không khí ma quái đang bao trùm lấy tu viện Mount Savior nằm sâu trong Cao nguyên Scotland. Nơi đây vừa xảy ra cái chết bí ẩn của một linh mục - đó là em trai của Grace (Jena Malone). Giáo hội ở đây cho rằng em trai cô đã tự sát, nhưng cô không tin vào lời khai này mà quyết tìm ra sự thật. Tuy nhiên, càng dấn sâu vào điều tra, Grace vô tình làm sáng tỏ một “sự thật” đáng lo ngại hơn cả cái chết bí ẩn của em trai mình. Những ký ức kinh hoàng dần hiện về trong tâm trí của Grace, đan xen với những hiện tượng tâm linh khó lý giải tại tu viện. Ngay tại nơi ngự trị của Chúa, Grace đã phải đối mặt với những nguy hiểm rình rập từ giáo hội, nhưng điều kỳ lạ là không một ai có thể làm hại được cô ấy. Liệu Grace đang có thiên thần hộ mệnh hay thế lực ác quỷ sau lưng? Trận chiến ác liệt giữa Chúa và quỷ dữ sẽ diễn ra như thế nào?",
       link1: "./GioiThieuPhim.html?Phim=thanh-vat-cua-quy",
       link2: "./XemPhim.html?Phim=thanh-vat-cua-quy",
@@ -709,7 +705,7 @@ const allMovies = [
       time: " 82 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Haruna Tsunematsu (Yuri Tsunematsu) đang học nghiên cứu về chuyên ngành văn hoá dân gian tại trường đại học. Cô quyết định lựa chọn truyền thuyết đô thị nổi tiếng là “Nhà ga Kisagari” để làm luận văn tốt nghiệp. Đây là câu chuyện rùng rợn từng được lưu truyền và khuấy đảo cộng động mạng vào năm 2004. Trong suốt quá trình thu thập tài liệu, Haruma gặp một người phụ nữ có tên là Junko Hayama (Eriko Sato). Nhiều lời đồn cho rằng, Junko chính là người đã đăng câu chuyện trên lên mạng với tên gọi “Hasumi”. Junko kể cho Haruna rằng cô đã lưu lạc tới một thế giới khác, và điều đó đã dẫn Haruna tới ga tàu Kisaragi - khởi nguồn của truyền thuyết đô thị rùng rợn năm xưa…",
       link1: "./GioiThieuPhim.html?Phim=kisaragi-nha-ga-nuot-chung",
       link2: "./XemPhim.html?Phim=kisaragi-nha-ga-nuot-chung",
@@ -745,7 +741,7 @@ const allMovies = [
       time: " 132 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Tất cả chúng ta đều là người hùng, vấn đề ở chỗ chúng ta phải biết cách phát huy năng lực của mình. Trong trường hợp của Bill Batson (Angel), với sự giúp đỡ của một phù thủy cổ xưa, chỉ cần nói lớn từ “Shazam!” là đứa trẻ 14 tuổi này có thể biến thành siêu anh hùng Shazam trưởng thành (Levi). Nhưng bên trong thân hình như một vị thần đó vẫn là trái tim của một đứa trẻ. Cái tên Shazam được dựa trên chữ cái đầu của những vị thần dũng mãnh là Solomon, Hercules, Atlas, Zeus, Achilles cùng Mercury.",
       link1: "./GioiThieuPhim.html?Phim=sieu-anh-hung-shazam-2019",
       link2: "./XemPhim.html?Phim=sieu-anh-hung-shazam-2019",
@@ -766,7 +762,7 @@ const allMovies = [
       time: " 130 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Shazam! Fury of the Gods: mang thể loại hành động, phiêu lưu do Mỹ sản xuất dự kiến công chiếu vào tháng 6 năm 2023, dưới sự chỉ đạo của David F. Sandberg cùng các diễn viên tham gia Zachary Levi, Asher Angel, Jack Dylan Grazer, Adam Brody, Ross Butler, Meagan Good, D.J. Cotrona, Grace Caroline Currey, Faithe Herman, Ian Chen, Jovan Armand, Marta Milans, Cooper Andrews, Djimon Hounsou,...Nội dung phim Shazam! Cơn Thịnh Nộ Của Các Vị Thần - Shazam! Fury of the Gods xoay quanh sự trở lại của cậu nhóc siêu anh hùng Shazam không còn tự tin vào chính mình, vì cho rằng mình chỉ là 1 đứa nhóc, không oai vệ, bản lĩnh như các siêu anh hùng khác như The Flash nhanh như chóp, hay cao to cỡ Aquanman, hoặc oai hùng thông minh như Batman,..Vì Shazam vốn chỉ là cậu nhóc ẩn mình trong vóc dáng của siêu anh hùng cao to, vụng về thiếu kiểm soát khả năng siêu nhiên của mình. Tuy nhiên lần này vò giải cứu thế giới Shazam đã nổi dận thực sự trừng trị cho thế lực siếu ác 1 bài học.",
       link1: "./GioiThieuPhim.html?Phim=shazam-2-con-thinh-no-cua-cac-vi-than",
       link2: "./XemPhim.html?Phim=shazam-2-con-thinh-no-cua-cac-vi-than",
@@ -787,8 +783,7 @@ const allMovies = [
       time: " 102 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "Qodrat phải đối mặt quá khứ đầy ám ảnh khi đứa trẻ Alif bị quỷ ám lại trùng tên với con trai quá cố bị quỷ dữ sát hại. Anh sẽ vượt qua nổi đau hay sa đọa vào bàn tay quỷ dữ.",
+      review: "Qodrat phải đối mặt quá khứ đầy ám ảnh khi đứa trẻ Alif bị quỷ ám lại trùng tên với con trai quá cố bị quỷ dữ sát hại. Anh sẽ vượt qua nổi đau hay sa đọa vào bàn tay quỷ dữ.",
       link1: "./GioiThieuPhim.html?Phim=giao-si-qodrat",
       link2: "./XemPhim.html?Phim=giao-si-qodrat",
       iframe: "https://www.youtube.com/embed/nbFYtNGSau0",
@@ -808,7 +803,7 @@ const allMovies = [
       time: " 120 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Mười hai năm sau khi khám phá Pandora và gia nhập Navi, Jake Sully đã cùng Neytiri lớn lên trong một gia đình và tạo dựng bản thân trong các gia tộc của thế giới mới. Tất nhiên, hòa bình chỉ có thể tồn tại lâu như vậy. Đặc biệt là khi tổ chức quân sự từ bộ phim gốc quay trở lại để hoàn thành những gì họ bắt đầu.",
       link1: "./GioiThieuPhim.html?Phim=avatar-2-1",
       link2: "./XemPhim.html?Phim=avatar-2-1",
@@ -829,7 +824,7 @@ const allMovies = [
       time: " 104 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "thuộc dạng kinh dị Thái Lan, do Lee Thongkham làm đạo diễn, kết hợp các diễn viên  Sushar Manaying, Teerapat Satjakul, Vithaya Pansringarm, Wanmai Chatborirak, Lamyai Haithongkham,...Nội dung xoay quanh 1 ngôi làng xa xôi ở Bueng Kan xảy ra biến cố kinh hoàng khi xuất hiện 1 con quái vật đáng sợ ngôi lên từ lòng sông Mekong, nó tấn công dân làng phá hủy mọi thứ đồng thời còn khiến người dân nơi đây bị mắc kẹt lại không thể liên lạc với thế giới bên ngoài. Vụ việc chấn động này tới tai chính phủm thế là lực lượng chức nằng cùng các nhà khoa học được điều động đến để bắt con quái vật để nghiên cứu, đồng thời giải cứu dân làng. Liệu họ có thành công hay không? Mời các bạn cùng đón xem Quái Vật Sông Mekong - The Lake.",
       link1: "./GioiThieuPhim.html?Phim=quai-vat-song-mekong",
       link2: "./XemPhim.html?Phim=quai-vat-song-mekong",
@@ -850,8 +845,7 @@ const allMovies = [
       time: " 90 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "Một phụ nữ mang thai nằm trên giường bắt đầu tự hỏi liệu ngôi nhà của mình có bị ma ám hay tất cả chỉ là do cô ấy nghĩ ra.",
+      review: "Một phụ nữ mang thai nằm trên giường bắt đầu tự hỏi liệu ngôi nhà của mình có bị ma ám hay tất cả chỉ là do cô ấy nghĩ ra.",
       link1: "./GioiThieuPhim.html?Phim=bao-thai-quy-di",
       link2: "./XemPhim.html?Phim=bao-thai-quy-di",
       iframe: "https://www.youtube.com/embed/UjkXSN0nVWs",
@@ -871,7 +865,7 @@ const allMovies = [
       time: " 88 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "xoay quanh câu chuyện về ba xác ướp khi họ đến London ngày nay và bắt đầu cuộc hành trình tìm kiếm chiếc nhẫn cũ của Hoàng gia, bị đánh cắp bởi nhà khảo cổ học đầy tham vọng Lord Carnaby.",
       link1: "./GioiThieuPhim.html?Phim=xac-uop-cuoc-phieu-luu-den-london",
       link2: "./XemPhim.html?Phim=xac-uop-cuoc-phieu-luu-den-london",
@@ -892,7 +886,7 @@ const allMovies = [
       time: " 93 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Sau cú va chạm thảm khốc, tàu vũ trụ của Mills (Adam Driver) bay thẳng đến một hành tinh không xác định. Với kiến thức nhạy bén của mình, Mills nhanh chóng nhận ra hành tinh không xác định này chính là Trái Đất của 65 triệu năm trước. Liệu với những công nghệ tương lai đang có, Mills có thể sống sót trước những loài khủng long và sinh vật tiền sử đáng sợ? 65 - Trận Chiến Thời Tiền Sử đến từ bộ đôi biên kịch từng tạo nên “A Quiet Place” và được nhào nặn bởi chính NSX nổi tiếng Sam Raimi. Và, với vai chính được thủ vai bởi diễn viên từng đoạt giải Oscar - Adam Driver.",
       link1: "./GioiThieuPhim.html?Phim=65-tran-chien-thoi-tien-su",
       link2: "./XemPhim.html?Phim=65-tran-chien-thoi-tien-su",
@@ -913,8 +907,7 @@ const allMovies = [
       time: " 92 Phút",
       rate: 8,
       like: 9,
-      review: 
-         "A plumber named MarioCuộc phiêu lưu đến Vương quốc Nấm của anh chàng thợ sửa ống nước Mario và quá trình anh vươn lên trở thành một huyền thoại.",
+      review: "A plumber named MarioCuộc phiêu lưu đến Vương quốc Nấm của anh chàng thợ sửa ống nước Mario và quá trình anh vươn lên trở thành một huyền thoại.",
       link1: "./GioiThieuPhim.html?Phim=anh-em-super-mario",
       link2: "./XemPhim.html?Phim=anh-em-super-mario",
       iframe: "https://www.youtube.com/embed/3aXo9DsiKqw",
@@ -934,7 +927,7 @@ const allMovies = [
       time: " 169 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "thuộc thể loại Hành Động, Phiêu Lưu, hợp tác cùng các diễn viên Keanu Reeves, Chân Tử Đan, Bill Skarsgård, Laurence Fishburne, Hiroyuki Sanada, Shamier Anderson, Lance Reddick, Rina Sawayama, Scott Adkins, Ian McShane, được chỉ đạo bởi đạo diễn Chad Stahelski. Nội dung phim Sát Thủ John Wick: Chương 4 - John Wick: Chapter 4 tiếp tục xoay quanh về nhân vật John Wick lần này anh đã tìm ra cách đánh bại High Table. Tuy nhiên việc cần làm trước tiên bây giờ là buộc phải đối đầu với kẻ thù mới xuất hiện là những kẻ liên minh hùng mạnh trên toàn cầu, khi chúng biến những người bạn cũ trở thành kẻ thù của John Wick.",
       link1: "./GioiThieuPhim.html?Phim=sat-thu-john-wick-phan-4",
       link2: "./XemPhim.html?Phim=sat-thu-john-wick-phan-4",
@@ -955,7 +948,7 @@ const allMovies = [
       time: " 117 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "kể về câu chuyện Adonis đã phát triển mạnh trong cả sự nghiệp và cuộc sống gia đình, nhưng khi một người bạn thời thơ ấu và cựu thần đồng quyền anh tái xuất, cuộc đối đầu không chỉ là một cuộc chiến",
       link1: "./GioiThieuPhim.html?Phim=tay-dam-huyen-thoai-3",
       link2: "./XemPhim.html?Phim=tay-dam-huyen-thoai-3",
@@ -976,7 +969,7 @@ const allMovies = [
       time: " 110 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Sau trận chiến khốc liệt với anh em quỷ Thượng Huyền Lục Gyuutarou và Daki tại Phố Đèn Đỏ, Tanjiro cùng các kiếm sĩ diệt quỷ đều bị thương nặng và được đưa trở về trụ sở của Đội Diệt Quỷ để dưỡng thương và phục hồi. Sau trận chiến, thanh gươm của Tanjiro cũng bị hư hỏng nặng và lúc này, cậu cần một thanh gươm mới để tiếp tục lên đường làm nhiệm vụ. Cậu được đưa đến Làng Rèn Gươm, nơi phụ trách rèn vũ khí cho các kiếm sĩ của Đội Diệt Quỷ và chuẩn bị cho trận chiến mới với các thành viên mạnh nhất trong hàng Thượng Huyền của Thập Nhị Quỷ Nguyệt.",
       link1: "./GioiThieuPhim.html?Phim=thanh-guom-diet-quy-duong-den-lang-ren-guom",
       link2: "./XemPhim.html?Phim=thanh-guom-diet-quy-duong-den-lang-ren-guom",
@@ -997,7 +990,7 @@ const allMovies = [
       time: " 40 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "kể về Vụ án giết người đặc biệt chưa được giải quyết vào năm 1997 tái hiện 13 năm sau, cảnh sát hình sự Vệ Tranh Vinh, người chưa bao giờ lần ra hung thủ thực sự, đã bị sốc và rời khỏi tiền tuyến. Nhiều sự trùng hợp ngẫu nhiên của vụ án đã đưa người thầy và người học việc lại với nhau để truy tìm thủ phạm thực sự.",
       link1: "./GioiThieuPhim.html?Phim=tran-phong-thap-tam-tai",
       link2: "./XemPhim.html?Phim=tran-phong-thap-tam-tai",
@@ -1018,7 +1011,7 @@ const allMovies = [
       time: " 45 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "là bộ BL lãng mạn-hài-giả tưởng sẽ được phát hành tại AISPLAY. Với sự tham gia của Marc Pahun (My Gear and Your Gown) và Copper Patpasit (My Engineer). Điều gì sẽ xảy ra khi Kiao (Cooper thủ vai) , một thiếu niên từ những năm 90 dịch chuyển đến tương lai (25 năm tới) và gặp Bamee (Marc thủ vai). Gyo sống vào thập niên 90s, là một kẻ phiền toái và hay gây chuyện với người khác. Gyo có ước mơ sẽ học kiến trúc nhưng vì một số lí do mà nó không thể được thực hiện… vì anh ta đã xuyên không đến 25 năm sau. Anh ta gặp Bamee – một sinh viên kiến trúc tương lai ít nói và sống khá hướng nội, bố Bamee đã qua đời và giờ cậu phải cố gắng làm việc để lo tiền học phí. Và bất ngờ thay, bố của Bamee lại là bạn học thân thiết của Gyo.",
       link1: "./GioiThieuPhim.html?Phim=ban-bo-thi-lam-sao-van-la-anh-yeu-duoc",
       link2: "./XemPhim.html?Phim=ban-bo-thi-lam-sao-van-la-anh-yeu-duoc",
@@ -1039,7 +1032,7 @@ const allMovies = [
       time: " 120 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "là 1 chương trình showw thể hiện tiềm năng của các cậu bé từ khắp nơi trên thế giới. Khi hai thế giới của K-Group và G-Group va chạm, MỘT THẾ GIỚI ra đời. Dự án thử giọng của Nhóm nhạc nam K-Pop chỉ được quyết định và sản xuất bởi người hâm mộ Hàn Quốc và toàn cầu. Người hâm mộ K-Pop Hàn Quốc và toàn cầu, hãy khám phá sức hút và tiềm năng của các chàng trai từ khắp nơi trên thế giới, đồng thời cổ vũ và ủng hộ họ để họ tỏa sáng.",
       link1: "./GioiThieuPhim.html?Phim=boys-planet",
       link2: "./XemPhim.html?Phim=boys-planet",
@@ -1060,7 +1053,7 @@ const allMovies = [
       time: "23 Phút",
       rate: 8,
       like: 9,
-      review: 
+      review:
          "Xa về phía bắc của thế giới là Cổng địa ngục, một cánh cổng trước đây được Chúa quỷ sử dụng để xâm chiếm cõi người. Nhờ người anh hùng huyền thoại Shion Bladearts, người nắm giữ Excalibur, và nhóm đồng đội trung thành của anh, Cánh cổng đã bị phong tỏa và mối đe dọa ma quỷ đã bị tiêu diệt.",
       link1: "./GioiThieuPhim.html?Phim=nguoi-anh-hung-huyen-thoai-da-chet",
       link2: "./XemPhim.html?Phim=nguoi-anh-hung-huyen-thoai-da-chet",
@@ -1107,270 +1100,4 @@ const allMovies = [
       link2: "./XemPhim.html?Phim=lupin-de-tam-vs-mat-meo",
       iframe: "https://www.youtube.com/embed/0G-UbLrtbfY",
    },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
-   // {
-   //    id: 50,
-   //    name: "",
-   //    eName: "",
-   //    image: "../Image/Movie-Item/",
-   //    nowPlaying: "HD | Vietsub",
-   //    episode: "",
-   //    year: 2023,
-   //    country: "Phim Nhật Bản",
-   //    category: ["", "Phim Anime"],
-   //    director: "",
-   //    actor: [""],
-   //    time: " Phút",
-   //    rate: "",
-   //    review: "",
-   //    link1: "./GioiThieuPhim.html?Phim=",
-   //    link2: "./XemPhim.html?Phim=",
-   //    iframe: "",
-   // },
 ];
